@@ -10,18 +10,18 @@
  */
 
 $en = array(
-	'home' => 'Home',
+	'home' => 'nyumbani',
 	'site:index' => 'karibu!',
 	'news:feed' => 'tarifa',
 	'new:feed' => 'tarifa',
 	'photos:ossn' => 'picha',
 	'admin:view:site' => 'tazama mtadao',
 	
-	'home:top:heading' => "karibu kwa %s! Join now to make new friends, create groups, add photos, and much more.",
+	'home:top:heading' => "karibu kwa %s! jisajili ufanye marafiki, kuuda vikudi, ongeza picha, na mengine mengi.",
 	'create:account' => 'unda akaunti',
-	'its:free' => "It's free and always will be.",
+	'its:free' => "ni bure na itabaki hivo.",
 	
-	'register:ok:message' => "akaunti yako imesajiriwa. An activation email has been sent to your mailbox. If you didn't receive the email, please check your spam/junk folder.",
+	'register:ok:message' => "akaunti yako imesajiriwa. barua pepe ya kusajiliwa imetumwa kwa email yako. kama hutapata barua pepe, agalia kijisaduku cha spam/junk .",
 	
 	'copyright' => '&copy; COPYRIGHT',
 	'powered' => 'Powered by the Open Source Social Network.',
@@ -39,7 +39,7 @@ $en = array(
 	'year' => 'mwaka',
 	'male' => 'mme',
 	'female' => 'mke',
-	'account:create:notice' => 'By clicking Create an account, you agree to our',
+	'account:create:notice' => 'kwa kuitikia , unaitikia',
 	'gender' => 'Gender',
 	
 	'acount:settings' => 'Account Settings',
