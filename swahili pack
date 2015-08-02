@@ -48,10 +48,10 @@ $en = array(
 	'page:error:heading' => '404',
 	
 	'search:users' => 'watu',
-	'admin:logout' => 'toka ine',
+	'admin:logout' => 'toka inje',
 	'admin:menu' => 'Admin Panel',
 	'feedback' => 'Send feedback',
-	'logout' => 'toka ine',
+	'logout' => 'toka inje',
 	
 	'ossn:like:this' => '%s liked this',
 	'ossn:like:you:and:this' => 'You and %s liked this',
@@ -116,9 +116,9 @@ Please confirm your email address by clicking on the link below:
 You may copy and paste the address to your browser manually in case the link does not work.
 
 %s",
-	'user:friends' => 'Friends',
-	'user:account:validated' => 'Account has been validated successfully!',
-	'user:account:validate:fail' => 'Cannot validate account! Please try again later.',
+	'user:friends' => 'marafiki',
+	'user:account:validated' => 'akaunti ime sajiriwa!',
+	'user:account:validate:fail' => 'akaunti iwezi sajiriwa! tafadhali jaribu hapo badaye.',
 	
 	'cache:enabled' => 'Cache successfully enabled!',
 	'cache:disabled' => 'Cache successfully disabled!',
@@ -173,8 +173,8 @@ You may copy and paste the address to your browser manually in case the link doe
 	'privacy:public:note' => 'Everyone on this site can see this.',
 	'privacy:friends:note' => 'Only your friends can see this.',
 	
-	'add:friend' => 'Add friend',
-	'cancel:request' => 'Cancel Request',
+	'add:friend' => 'ongeza rafiki',
+	'cancel:request' => 'kata request',
 	'remove:friend' => 'toa rafiki',
 	'no:friends' => 'akuna marafiki',
 	'settings' => 'Settings',
