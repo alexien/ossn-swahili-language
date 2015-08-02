@@ -9,7 +9,7 @@
  * @link      http://www.opensource-socialnetwork.org/licence
  */
 
-$en = array(
+$sw = array(
 	'home' => 'nyumbani',
 	'site:index' => 'karibu!',
 	'news:feed' => 'tarifa',
@@ -24,9 +24,9 @@ $en = array(
 	'register:ok:message' => "akaunti yako imesajiriwa. barua pepe ya kusajiliwa imetumwa kwa email yako. kama hutapata barua pepe, agalia kijisaduku cha spam/junk .",
 	
 	'copyright' => '&copy; COPYRIGHT',
-	'powered' => 'Powered by the Open Source Social Network.',
+	'powered' => 'imeudwa na the Open Source Social Network.',
 	
-	'name' => 'Name',
+	'name' => 'jina',
 	'birthdate' => 'siku ya kusaliwa',
 	'first:name' => 'jina la nkwaza',
 	'last:name' => 'jina la mwisho',
@@ -40,37 +40,37 @@ $en = array(
 	'male' => 'mme',
 	'female' => 'mke',
 	'account:create:notice' => 'kwa kuitikia , unaitikia',
-	'gender' => 'Gender',
+	'gender' => 'jisia',
 	
-	'acount:settings' => 'Account Settings',
-	'page:error' => 'Page Not Found!',
-	'page:error:text' => 'The page you requested is unavailable or may have been deleted.',
+	'acount:settings' => 'mpagilio wa akauti',
+	'page:error' => 'ukurasa haupatikani!',
+	'page:error:text' => 'ukurasa uliotaka haupatikani hau ulifutwa.',
 	'page:error:heading' => '404',
 	
 	'search:users' => 'watu',
 	'admin:logout' => 'toka inje',
 	'admin:menu' => 'Admin Panel',
-	'feedback' => 'Send feedback',
+	'feedback' => 'tuma maoni',
 	'logout' => 'toka inje',
 	
-	'ossn:like:this' => '%s liked this',
+	'ossn:like:this' => '%s ulipeda hii',
 	'ossn:like:you:and:this' => 'You and %s liked this',
 	'ossn:like:people' => '%s watu',
 	'ossn:like:person' => '%s mtu',
-	'ossn:liked:you' => 'unapeda hii',
-	'ossn:unlike' => 'sipedi',
-	'ossn:like' => 'napeda',
+	'ossn:liked:you' => 'unapenda hii',
+	'ossn:unlike' => 'sipendi',
+	'ossn:like' => 'napenda',
 	
 	'admin:components' => 'Components',
 	'admin:dashboard' => 'Dashboard',
 	'admin:install' => 'Installer',
 	'admin:themes' => 'Themes',
-	'admin:basic' => 'Basic',
+	'admin:basic' => 'kawaida',
 	'admin:cache' => 'Cache',
-	'admin:mode' => 'Mode',
-	'configure' => 'Configure',
-	'admin:help' => 'Help',
-	'admin:support' => 'Support',
+	'admin:mode' => 'aina',
+	'configure' => 'mpagilio',
+	'admin:help' => 'msaada',
+	'admin:support' => 'kusaidiwa',
 	
 	'ossn:update:check:error' => 'Error',
 	
@@ -81,10 +81,10 @@ $en = array(
 	'search' => 'tafuta',
 	'delete' => 'futa',
 	
-	'admin:users' => 'List users',
-	'admin:add:user' => 'Add User',
-	'admin:user:deleted' => 'User has been deleted!',
-	'admin:user:delete:error' => 'Unable to delete user. Please try again later.',
+	'admin:users' => 'watumizi',
+	'admin:add:user' => 'ongeza mtumizi',
+	'admin:user:deleted' => 'mtumizi amefutwa!',
+	'admin:user:delete:error' => 'hawezi futa mtumizi. tafhadhali jalibu badaye.',
 	
 	'type' => 'aiana',
 	'normal' => 'kawaida',
@@ -93,7 +93,7 @@ $en = array(
 	'lastlogin' => 'wisho kuigia',
 	
 	'my:version' => 'My OSSN Version',
-	'online:users' => 'Users Online',
+	'online:users' => 'walio kwa mtadao',
 	'themes' => 'Themes',
 	'users' => 'watumizi',
 	'components' => 'Components',
@@ -106,35 +106,35 @@ $en = array(
 	'photos' => 'picha',
 	'friends' => 'marafiki',
 	'links' => 'Links',
-	'ossn:add:user:mail:subject' => "%s please confirm your email address for %s!",
-	'ossn:add:user:mail:body' => "Before you can start using %s, you must confirm your email address.
+	'ossn:add:user:mail:subject' => "%s tafadhali sahisha barua pepe yako %s!",
+	'ossn:add:user:mail:body' => "kabra ujaaza kutumia %s, lazima u sahisha baruapepe yako.
 
-Please confirm your email address by clicking on the link below:
+tafadhali sahisha barua pepe kwa kufuata hii anwani:
 
 %s
 
-You may copy and paste the address to your browser manually in case the link does not work.
+unaweza kuweka hii anwani kwa mtadao.
 
 %s",
 	'user:friends' => 'marafiki',
 	'user:account:validated' => 'akaunti ime sajiriwa!',
 	'user:account:validate:fail' => 'akaunti iwezi sajiriwa! tafadhali jaribu hapo badaye.',
 	
-	'cache:enabled' => 'Cache successfully enabled!',
-	'cache:disabled' => 'Cache successfully disabled!',
-	'cache:enable' => 'Enable Cache',
-	'cache:disable' => 'Disable Cache',
+	'cache:enabled' => 'Cache imefaulu kuwezesha!',
+	'cache:disabled' => 'Cache imefaulu kutowezesha!',
+	'cache:enable' => 'wezesha Cache',
+	'cache:disable' => 'kutowezesha Cache',
 	
-	'cache:1' => 'Enabled',
-	'cache:0' => 'Disabled',
+	'cache:1' => 'wezesha',
+	'cache:0' => 'kutowezesha',
 	'cache:notice' => 'Stores CSS and Javascript files in a cache to improve site performance.',
 	
 	'theme:install:notice' => 'Upload a valid .zip theme package.',
 	'com:install:notice' => 'Upload a valid .zip component package.',
 	
 	'login:error' => 'Invalid username or passsword!',
-	'login:error:sub' => "We couldn't log you in. Please check your username or password and try again.",
-	'login:success' => 'You are now logged in!',
+	'login:error:sub' => "uwesi kuigia ndani. tafhali agalia jina ama myira na jaribu tena.",
+	'login:success' => 'umeingia ndani!',
 	'com:installed' => 'Component has been installed!',
 	'com:install:error' => 'Cannot install component! Make sure it is a valid package.',
 	'settings:saved' => 'Settings saved',
@@ -150,36 +150,36 @@ You may copy and paste the address to your browser manually in case the link doe
 	'theme:installed' => 'Theme has been successfully installed!',
 	'theme:install:error' => 'Unable to install theme. Make sure it is compatible with the OSSN version you are using.',
 	
-	'fields:require' => 'All fields are required!',
-	'username:error' => 'Username is invalid.',
-	'password:error' => 'Password must be more than 5 characters.',
-	'account:created' => 'Your account has been created.',
-	'account:create:error:admin' => 'Account registration failed! Please try again later.',
-	'user:updated' => 'User has been updated!',
-	'logged:out' => 'You are now logged out!',
-	'username:inuse' => 'The following username has already been used. Please select a different username.',
-	'email:inuse' => 'The email address you used already exists in our database. Please try another email address.',
-	'email:invalid' => 'Email address is invalid! Make sure the email address you entered is correct.',
-	'email:error:matching' => "Email addresses do not match.",
-	'account:created:email' => "Your account has been registered! We have sent you an account activation email. If you didn't receive the email, please check your spam/junk folder",
+	'fields:require' => 'jaza sehemu zote!',
+	'username:error' => 'jina la mtumizi si sahii.',
+	'password:error' => 'nywira iwe na saidi ya elufi tano.',
+	'account:created' => 'akuti yako imesajiliwa.',
+	'account:create:error:admin' => 'kusajiliwa kwa akauti kumefeli! tafadhali jalibu hapo badaye.',
+	'user:updated' => 'mtumizi ameidinishwa!',
+	'logged:out' => 'umetoka inje!',
+	'username:inuse' => 'jina hilo limetumiwa. tafhadali tafuta jina ligine.',
+	'email:inuse' => 'barua pepe hii hiko kwa database zetu. tafadhali tafuta barua pepe ingine.',
+	'email:invalid' => 'baru pepe zi sahii! hakikisha barupepe ni sahii.',
+	'email:error:matching' => "barua pepe hazifanani.",
+	'account:created:email' => "akauti yako imesajiliwa! tumetuma barua pepe. kama hutapata barua pepe, tafadhali tazama spam/junk ",
 	
 	'administration' => 'Administration',
 	
-	'privacy' => 'privacy',
+	'privacy' => 'siri',
 	'close' => 'funga',
 	'open' => 'fugua',
 	'public' => 'umha',
 	'friends' => 'marafiki',
-	'privacy:public:note' => 'Everyone on this site can see this.',
-	'privacy:friends:note' => 'Only your friends can see this.',
+	'privacy:public:note' => 'kila mtu kwa mtadao ataona.',
+	'privacy:friends:note' => 'marafiki zako wataona pekee.',
 	
 	'add:friend' => 'ongeza rafiki',
 	'cancel:request' => 'kata request',
 	'remove:friend' => 'toa rafiki',
 	'no:friends' => 'akuna marafiki',
-	'settings' => 'Settings',
-	'ossn:add:friend:error' => 'Cannot add friend!',
-	'ossn:friend:request:submitted' => 'Your friend request has been sent!',
+	'settings' => 'mpagilio',
+	'ossn:add:friend:error' => 'hawezi ongeza rafiki!',
+	'ossn:friend:request:submitted' => 'nia ya urafiki imetumwa!',
 	
 	/* Upgrades */
 	'upgrade:file:load:error' => 'Cannot load upgrade file!',
@@ -187,10 +187,10 @@ You may copy and paste the address to your browser manually in case the link doe
 	'upgrade:failed' => "Cannot upgrade your site to release %s.",
 	'upgrade:not:available' => 'Nothing to upgrade!',
 	
-	'site:login' => 'Login',
+	'site:login' => 'ingia',
 	/* Page errors */
-	'system:error:title' => 'Something went wrong!',
-	'system:error:text' => 'Something went wrong! Reload this page and try again.',
+	'system:error:title' => 'kunacho kimeharibika!',
+	'system:error:text' => 'kunacho kimeharibika! ashisha ukurasa upya.',
 	
 	/* Password Reset */
 	'reset:login' => 'badirisha nywira yako',
@@ -201,7 +201,7 @@ You may copy and paste the address to your browser manually in case the link doe
 	'ossn:reset:password:subject' => 'badirisha nywira yako',
 	'ossn:reset:password:body' => "Hello %s,
 	
-Please click the link below to reset password or copy the link and paste into your browser's address bar:
+tafhadali fuata hii anwali na uweke kwa mtadao ili ubadilishe nywira:
 
 %s
 
@@ -212,12 +212,12 @@ Please click the link below to reset password or copy the link and paste into yo
 	'passord:reset:email:success' => 'jinsi ya kubadilisha nywira imetumwa kwa barua pepe yako.',
 	'reset:password' => 'badirisha nywira',
 	
-	'erros:reporting' => 'Error Reporting',
+	'erros:reporting' => 'tagaza makoza',
 	'erros:off' => 'Off',
 	'erros:on' => 'On',
-	'basic:settings' => 'Basic Settings',
+	'basic:settings' => 'mpagilio wa kawaida',
 	
-	'ossn:new:version:error' => 'Unknown',
+	'ossn:new:version:error' => 'aijulikani',
 	'ossn:version:avaialbe' => "%s",
 	
 	'ossn:exception:title' => 'A system error has occurred. Please try again later. You may email the details of this error to the system administrator at %s.',
@@ -230,54 +230,54 @@ Please click the link below to reset password or copy the link and paste into yo
 	'title:access:2' => 'jamaa',
 	'title:access:3' => 'marafiki',
 	
-	'upload:file:error:ini_size' => 'The file you tried to upload is too large.',
-	'upload:file:error:form_size' => 'The file you tried to upload is too large.',
-	'upload:file:error:partial' => 'The file upload did not complete.',
-	'upload:file:error:no_file' => 'No file was selected.',
-	'upload:file:error:no_tmp_dir' => 'Cannot save the uploaded file.',
-	'upload:file:error:cant_write' => 'Cannot save the uploaded file.',
-	'upload:file:error:extension' => 'Cannot save the uploaded file.',
-	'upload:file:error:unknown' => 'The file upload failed.',
+	'upload:file:error:ini_size' => 'faili hii ni kubwa sana.',
+	'upload:file:error:form_size' => 'faili hii ni kubwa sana.',
+	'upload:file:error:partial' => 'kuchukua faili hakuja kamilika.',
+	'upload:file:error:no_file' => 'hakuna faili iliyo chaguliwa.',
+	'upload:file:error:no_tmp_dir' => 'haiwezi save faili uliochagua.',
+	'upload:file:error:cant_write' => 'haiwezi save faili uliochagua.',
+	'upload:file:error:extension' => 'haiwezi save faili uliochagua.',
+	'upload:file:error:unknown' => 'kuchukua faili kumefeli.',
 	
-	'ossn:post:size:exceed' => 'The action you requested exceeds the size limit.',
+	'ossn:post:size:exceed' => 'unacho taka kimepit kiwago kinacho itajika.',
 	
 	'admin:components' => 'Components',
 	'admin:themes' => 'Themes',
 	'admin:com:installer' => 'Component Installer',
 	'admin:theme:installer' => 'Theme Installer',
-	'admin:cache:settings' => 'Cache Settings',
+	'admin:cache:settings' => 'mpagilio wa chace',
 	'admin:add:user' => 'ongeza mtumizi',
 	'admin:user:list' => 'watumizi wote',
 	'admin:edit:user' => 'adika mtumizi',
 	'admin:login' => 'ingia',
 	'admin:notification:email' => 'barua pepe ya mtadao',
 	'notification_email' => 'barua pepe kwa yanayo tedeka (noreply@domain.com)',
-	'owner_email' => 'Owner Email (mysite@domain.com)',
+	'owner_email' => 'mwenye barua pepe (mysite@domain.com)',
 	'ossn:websitename' => 'jina la mtadao',
-	'ossn:user:validation:resend' => 'Your account is not validated! You must validate your account before logging in. Another validation email has been sent to your email address.',
+	'ossn:user:validation:resend' => 'akauti yako haja ruhusiwa! wezesha akauti yako kabla uja ingia. barua pepe ingine imetumwa.',
 	'site:timepassed:text' => '%s ago',
 	// localization of passed time: 16 time elements (even = singular / odd = plural)
 	'site:timepassed:data' => 'sekude|sekude|dakika|dakika|masaa|masaa|siku|siku|juma|juma|mwezi|mwezi|mwaka|mwaka|mwongo|mwongo',
 	'ossn:notification:no:notification' => 'hakuna cha kuonyesha',
-	'admin:button:enable' => 'Enable',
-	'admin:button:enabled' => 'Enabled',
-	'admin:button:disable' => 'Disable',
-	'admin:button:configure' => 'Configure',
-	'admin:button:delete' => 'Delete',
+	'admin:button:enable' => 'wesheza',
+	'admin:button:enabled' => 'wesheza',
+	'admin:button:disable' => 'kutowezesha',
+	'admin:button:configure' => 'mpagilio',
+	'admin:button:delete' => 'futa',
 	'admin:component:author' => 'Author',
-	'admin:component:website' => 'Website',
+	'admin:component:website' => 'mtadao',
 	'admin:sidemenu:components' => 'Components',
 	'admin:sidemenu:themes' => 'Themes',
-	'admin:sidemenu:settings' => 'Site Settings',
-	'admin:sidemenu:usermanager' => 'User Manager',
-	'cancel' => 'Cancel',
-	'ossn:language:complete' => 'Complete',
-	'ossn:pagination:first' => 'First',
-	'ossn:pagination:last' => 'Last',
+	'admin:sidemenu:settings' => 'mpagilio wa mtadao',
+	'admin:sidemenu:usermanager' => 'simamia watumizi',
+	'cancel' => 'kata',
+	'ossn:language:complete' => 'maliza',
+	'ossn:pagination:first' => 'kwaza',
+	'ossn:pagination:last' => 'mwisho',
 	'validate' => 'Validate',
-	'admin:users:unvalidated' => 'Unvalidated Users',
-	'admin:user:validated' => 'User validated',
-	'admin:user:validate:error' => 'Could not validate user.',
+	'admin:users:unvalidated' => 'watumizi wasio idhinishwa',
+	'admin:user:validated' => 'watumizi walio idhinishwa',
+	'admin:user:validate:error' => 'hawezi kuidhinisha mtumizi.',
 	
 	//v3.0
 	//admin
@@ -290,15 +290,15 @@ Please click the link below to reset password or copy the link and paste into yo
 	'php:function' => 'PHP function',
 	'admin:old:com' => "Your ossn_com.xml file is based on old version of Ossn. Please update '%s' component.",
 	'admin:old:theme' => "Your ossn_theme.xml file is based on old version of Ossn. Please update '%s' theme.",
-	'admin:button:disabled' => 'Disabled',
+	'admin:button:disabled' => 'kutowezesha',
 	'admin:flush:cache' => 'Flush Cache',
 	'admin:com:version' => 'Version',
 	'admin:com:author' => 'Author',
 	'admin:com:author:url' => 'Author URL',
-	'admin:com:license' => 'License',
-	'admin:com:requirements' => 'Requirements',
-	'admin:com:availability' => 'Availability',
-	'ossn:exception:make:sure' => 'Are you sure?',
+	'admin:com:license' => 'leseni',
+	'admin:com:requirements' => 'yanayo itajika',
+	'admin:com:availability' => 'uwesekano',
+	'ossn:exception:make:sure' => 'huna hakika?',
 	
 	/*
 	 * List of ISO 639-1 language codes
